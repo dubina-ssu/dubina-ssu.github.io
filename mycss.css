@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+body {background:url(images/bg.gif) repeat-x top #8ca6a2;
+margin:auto; background-attachment:fixed;}
+div.fix_block {
+position: fixed;
+top: 100px;
+left: 30px;
+padding: 20px;
+border: 1px solid #000;
+border-radius: 20px;
+
+}
+#scrollup {
+position: fixed; /* фиксированная позиция */
+
+padding: 15px 10px 10px; /* отступы */
+
+border-radius: 20px; /* скругление углов */
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+left: 10px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+display: none; /* спрятать блок */
+cursor: pointer;
+border: 1px solid #000;
+color: red;
+}
+#body_1 {
+	width: 970px;
+	margin: 0 auto;
+	font-variant: normal;
+}
+
+#topmenu {
+	clear: both;
+	float: right;
+	display: inline-block;
+	padding-top: 0px;
+}
+
+#topmenu ul {
+	display: inline-block;
+	height: 75px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topmenu ul li {
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+	display: inline-block;
+}
+
+#topmenu ul li a{
+	float: left;
+	display: block;
+	height: 60px;
+	width: 160px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background: url(images/button_3.png) center no-repeat;
+	text-align: center;
+	text-decoration: none;
+	font-weight: normal;
+	color: #B0E0E6;
+	outline: none;
+	border: none;
+}
+
+#topmenu ul li a:hover, #topmenu ul .current {
+	background:url(images/button_4.png) center no-repeat;
+}
+
+
+#block_1 h1{
+	clear: both;
+	width: 910px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: 118px;
+	margin-bottom: 20px;
+	background-color: #5899AA;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	border: solid 1px #000000;
+	border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 13px;
+	-khtml-border-radius: 18px;
+	padding-bottom: 20px;
+	line-height: 115px;
+	text-align: center;
+	color: #4E5355;
+	text-shadow: 2px 1px #85C2CF;
+}
+
+#block_2{
+	clear: both;
+	width: 930px;
+	height: auto;
+	padding: 20px 20px;
+	margin-bottom: 10px;
+	background-color: #B0E0E6;
+	border: solid 1px #000000;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 13px;
+	-khtml-border-radius: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 13pt;
+	text-align: justify;
+	text-indent: 25px;
+}
+
+blockquote{
+	border: 3px inset;
+	width: 680px;
+	height: 67px;
+	line-height: 33px;
+	font-style: italic;
+	background-color: #BBBBBB;
+	border-radius: 11px;
+}
+
+#block_2_1 {
+	width:930px;
+	height:115px;
+
+
+}
+
+#list li,a{
+	text-decoration: none;
+	list-style: none;
+}
+
+#list  li,a:link{
+	color:#636363;
+}
+
+#list  li,a:visited{
+	color:#636363;
+}
+
+#list a:hover{
+	font-size: 13pt;
+	color:#B3B3B3;
+
+}
+
+#block_3 {
+	width: 910px;
+	padding: 10px 30px;;
+	text-align: center;
+	color: #000;
+}
+
+#block_3 a {
+	color: #000;
+}
+
+
+#span {
+	text-shadow: 3px 1px 0px #8EB9BD;
+	letter-spacing: 1px;
+	color: #3B4949;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.rightimg {
+	float: right;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-left: 7px;
+	margin-bottom: 7px;
+	border: 1px solid #333;
+	background: #f0f0f0;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	width: 400px;
+	height: 332px;
+}
+
+.rightimg_index {
+	float: right;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-left: 7px;
+	margin-bottom: 7px;
+	border: 1px solid #333;
+	background: #f0f0f0;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+.rightimg_index figcaption {
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	font-size: 12pt;
+}
+
+
+.leftimg {
+	float: left;
+	margin-top: 7px;
+	margin-right: 7px;
+	margin-left: 7px;
+	margin-bottom: 0px;
+	border: 1px solid #333;
+	background: #f0f0f0;
+	padding-top: 0px;
+	padding-right: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	width: 400px;
+	height: 332px;
+}
+
+.rightimg figcaption {
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	font-size: 11pt;
+}
+
+.leftimg figcaption {
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	font-size: 11pt;
+}
